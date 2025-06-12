@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  CapstoneApplication
-//
-//  Created by Ava Dooley on 2025-06-12.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct WelcomeView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +13,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    WelcomeView()
 }
